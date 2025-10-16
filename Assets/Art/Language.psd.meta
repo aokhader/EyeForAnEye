@@ -103,37 +103,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Language_0
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 759
-        width: 444
-        height: 216
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65899410086bfa560800000000000000
-      internalID: 7327275779648755798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Language_1
       rect:
         serializedVersion: 2
-        x: 570
+        x: 197
         y: 260
-        width: 1249
+        width: 1622
         height: 1261
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,7 +128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c52debc65bfee264dac635f2348cf820
     internalID: 0
     vertices: []
     indices: 
