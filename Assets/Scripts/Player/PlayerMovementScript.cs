@@ -23,6 +23,7 @@ public class PlayerMovementScript : MonoBehaviour
     {
         Vector2 dir = moveAction.ReadValue<Vector2>();
         rb.linearVelocity = dir * moveSpeed;
+
         // if (!dir.Equals(Vector2.zero))
         // {
         //     if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
@@ -34,12 +35,12 @@ public class PlayerMovementScript : MonoBehaviour
         //         sr.sprite = dir.y > 0 ? back : front;
         //     }
         // }
+
         Vector2 mousePos = lookAction.ReadValue<Vector2>();
         Vector2 screenCenter = new Vector2(Screen.width / 2f, Screen.height / 2f);
         Vector2 mouseDir = (mousePos - screenCenter).normalized;
 
         float angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
-        //transform.rotation = Quaternion.Euler(0f, 0f, angle);
         if (angle > 45 && angle < 135)
         {
             sr.sprite = back;
