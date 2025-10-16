@@ -12,6 +12,7 @@ public class PlayerMovementScript : MonoBehaviour
     public Sprite back;
     public Sprite left;
     public Sprite right;
+    public Animator anim;
 
     void Awake()
     {
@@ -41,21 +42,36 @@ public class PlayerMovementScript : MonoBehaviour
         Vector2 mouseDir = (mousePos - screenCenter).normalized;
 
         float angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
-        if (angle > 45 && angle < 135)
-        {
-            sr.sprite = back;
-        }
-        else if (angle > 135 || angle < -135)
-        {
-            sr.sprite = left;
-        }
-        else if (angle < -45 && angle > -135)
-        {
-            sr.sprite = front;
-        }
-        else
-        {
-            sr.sprite = right;
-        }
+        // if (angle > 70 && angle < 160)
+        // {
+        //     sr.sprite = back;
+        // }
+        // else if (angle > 160 || angle < -110)
+        // {
+        //     sr.sprite = left;
+        // }
+        // else if (angle < -20 && angle > -110)
+        // {
+        //     sr.sprite = front;
+        // }
+        // else
+        // {
+        //     sr.sprite = right;
+        // }
+
+        // if (rb.linearVelocity.magnitude > 0)
+        // {
+        //     anim.Play("RunFrontAnim");
+        // }
+        // else
+        // {
+        //     anim.Play("PlayerIdleAnim");
+        // }
+        anim.SetFloat("DirX", mouseDir.x);
+        anim.SetFloat("DirY", mouseDir.y);
+        Vector2 vel = rb.linearVelocity;
+        anim.SetFloat("MoveX", vel.normalized.x);
+        anim.SetFloat("MoveY", vel.normalized.y);
+        anim.SetFloat("Speed", vel.magnitude);
     }
 }

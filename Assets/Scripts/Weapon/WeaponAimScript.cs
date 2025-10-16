@@ -1,4 +1,6 @@
 using System;
+using Mono.Cecil.Cil;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +11,12 @@ public class WeaponAimScript : MonoBehaviour
     InputAction atkAction;
     public SpriteRenderer sr;
     public Animator anim;
+    public GameObject sword;
+    public GameObject swordSlashEffect;
+    public float slashOffset = 0.75f;
+    public float fireRate = 1f;
+
+    private float nextFire = 0;
 
     void Awake()
     {
@@ -19,21 +27,28 @@ public class WeaponAimScript : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        bool attack = atkAction.IsPressed();
-        if (attack)
-        {
-            Debug.Log("Slash");
-            anim.Play("SwordSlashAnim");
-        }
         Vector2 mousePos = lookAction.ReadValue<Vector2>();
         Vector2 screenCenter = new Vector2(Screen.width / 2f, Screen.height / 2f);
         Vector2 mouseDir = (mousePos - screenCenter).normalized;
+        bool attack = atkAction.IsPressed();
+        if (attack && Time.time > nextFire)
+        {
+            anim.Play("SwordSlashAnim");
+            Vector3 spawnPos = transform.position;
+            spawnPos.x += mouseDir.x * slashOffset;
+            spawnPos.y += mouseDir.y * slashOffset;
+            Vector3 rotation = transform.eulerAngles;
+            rotation.z -= 90;
+            GameObject obj = Instantiate(swordSlashEffect, spawnPos, Quaternion.Euler(rotation));
+            nextFire = Time.time + fireRate;
+        }
 
         float angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
+        Vector3 globalEuler = sword.transform.eulerAngles;
         sr.sortingLayerName = "InfrontOfPlayer";
-        if ((angle > 45 && angle < 135) || (angle <45 && angle > -45))
+        if (globalEuler.z >20 && globalEuler.z < 240)
         {
             sr.sortingLayerName = "BehindPlayer";
         }
