@@ -8,6 +8,7 @@ public class BatFollowScript : MonoBehaviour
     public float swoopForce = 2f;
     public float swoopRate = 5f;
     private float nextSwoop = 0f;
+    public float latchOnDistance = 5f;
     private enum SwoopState {Approaching, Viscinity, Resting };
     private SwoopState state = SwoopState.Resting;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -25,14 +26,14 @@ public class BatFollowScript : MonoBehaviour
         {
             case SwoopState.Approaching:
                 rb.AddForce(toPlayer.normalized * moveForce);
-                if (toPlayer.magnitude < 4)
+                if (toPlayer.magnitude < latchOnDistance)
                 {
                     state = SwoopState.Viscinity;
                 }
                 break;
             case SwoopState.Viscinity:
                 rb.AddForce(toPlayer.normalized * swoopForce);
-                if (toPlayer.magnitude > 4)
+                if (toPlayer.magnitude > latchOnDistance)
                 {
                     state = SwoopState.Resting;
                     nextSwoop = Time.time + swoopRate;
