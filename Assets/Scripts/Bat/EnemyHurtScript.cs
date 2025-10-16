@@ -11,6 +11,7 @@ public class EnemyHurtScript : MonoBehaviour
     public int heatlh = 1;
     public float iFrameTime = 0.5f;
     private float nextDmg = 0f;
+    public GameObject eye;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,6 +29,7 @@ public class EnemyHurtScript : MonoBehaviour
             heatlh--;
             if (heatlh <= 0)
             {
+                Instantiate(eye,transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
             nextDmg = Time.time + iFrameTime;
