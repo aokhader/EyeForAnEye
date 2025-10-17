@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5836834689081730889}
   - component: {fileID: 7969443896162597499}
   - component: {fileID: 4443262917837537862}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,6 +96,9 @@ MonoBehaviour:
   player: {fileID: 0}
   rb: {fileID: 467525634540540900}
   knockbackSpeed: 2
+  heatlh: 1
+  iFrameTime: 0.5
+  eye: {fileID: 0}
 --- !u!61 &4443262917837537862
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -154,7 +157,7 @@ GameObject:
   - component: {fileID: 3432195089502451094}
   - component: {fileID: 1405006398794003012}
   - component: {fileID: 585305708310160992}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BatSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
