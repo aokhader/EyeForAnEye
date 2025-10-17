@@ -7,6 +7,7 @@ public class CaptionProgressionScript : MonoBehaviour
     public TMP_Text myText;
     public Animator spawnLevelAnim;
     public GameObject tutorialBat;
+    public Animator playerLightAnim;
     
     public struct Caption
     {
@@ -26,6 +27,10 @@ public class CaptionProgressionScript : MonoBehaviour
         new Caption { text = "I'm running from something...", duration = 6f },
         new Caption { text = "It feels almost as if -- my own thoughts are attacking me.", duration = 1f },
     };
+    private Caption[] intro3Captions = new Caption[]
+    {
+        new Caption { text = "What is this?", duration = 6f },
+    };
 
     void Start()
     {
@@ -35,6 +40,10 @@ public class CaptionProgressionScript : MonoBehaviour
     public void ContinueTutorialCaptions()
     {
         StartCoroutine(PlayIntro2Captions());
+    }
+    public void ContinueTutorialCaptions1()
+    {
+        StartCoroutine(PlayIntro3Captions());
     }
 
     IEnumerator PlayIntro1Captions()
@@ -59,5 +68,14 @@ public class CaptionProgressionScript : MonoBehaviour
             yield return new WaitForSeconds(intro2Captions[i].duration);
         }
         tutorialBat.SetActive(true);
+    }
+    IEnumerator PlayIntro3Captions()
+    {
+        playerLightAnim.SetTrigger("PlayerLightRecede");
+        for (int i = 0; i < intro3Captions.Length; i++)
+        {
+            myText.text = intro3Captions[i].text;
+            yield return new WaitForSeconds(intro3Captions[i].duration);
+        }
     }
 }

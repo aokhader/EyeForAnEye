@@ -95,10 +95,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   player: {fileID: 0}
   rb: {fileID: 467525634540540900}
+  anim: {fileID: 0}
   knockbackSpeed: 2
   heatlh: 3
   iFrameTime: 0.5
-  eye: {fileID: 6393896642507879567, guid: 31b2778b3e9c6c147954393bc8bb9235, type: 3}
+  eye: {fileID: 8563120227381632743, guid: caf1be1c562e1be41a5c9cec33eb3f0d, type: 3}
 --- !u!61 &4443262917837537862
 BoxCollider2D:
   m_ObjectHideFlags: 0
