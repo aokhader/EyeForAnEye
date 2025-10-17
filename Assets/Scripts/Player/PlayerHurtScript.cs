@@ -12,7 +12,7 @@ public class PlayerHurtScript : MonoBehaviour
     private float quitTime=-1f;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Enemy") && Time.time > nextHitTime)
+        if (other.gameObject.layer == LayerMask.NameToLayer("EnemyAttack") && Time.time > nextHitTime)
         {
             health--;
             anim.SetTrigger("PlayerHit");
