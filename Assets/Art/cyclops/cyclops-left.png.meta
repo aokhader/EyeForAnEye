@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: d3fcec3b9c26172499982cf8b5aa2b50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3621622455849467934
+    second: cyclops-left_0
+  - first:
+      213: -6975261517538031596
+    second: cyclops-left_1
+  - first:
+      213: 8163779311472261496
+    second: cyclops-left_2
+  - first:
+      213: 4938968273109286328
+    second: cyclops-left_3
+  - first:
+      213: 9153286200211617338
+    second: cyclops-left_4
+  - first:
+      213: 3870413279193797206
+    second: cyclops-left_5
+  - first:
+      213: -7715042189163776154
+    second: cyclops-left_6
+  - first:
+      213: 784241333671750283
+    second: cyclops-left_7
+  - first:
+      213: 1526109827575162876
+    second: cyclops-left_8
+  - first:
+      213: -3705276748398797849
+    second: cyclops-left_9
+  - first:
+      213: -2242010310651605433
+    second: cyclops-left_10
+  - first:
+      213: -5695167769700236993
+    second: cyclops-left_11
+  - first:
+      213: 1416787361334373772
+    second: cyclops-left_12
+  - first:
+      213: 6154509841339436259
+    second: cyclops-left_13
+  - first:
+      213: 8745625566586126681
+    second: cyclops-left_14
+  - first:
+      213: 5558445249472234833
+    second: cyclops-left_15
+  - first:
+      213: -1909504940900813951
+    second: cyclops-left_16
+  - first:
+      213: -6018449945234937868
+    second: cyclops-left_17
+  - first:
+      213: -8195279541448765906
+    second: cyclops-left_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cyclops-left_0
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 359
+        width: 1150
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e104c777f66924230800000000000000
+      internalID: 3621622455849467934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_1
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1285
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41881b73b94e23f90800000000000000
+      internalID: -6975261517538031596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_2
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1285
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879bcfcb7029b4170800000000000000
+      internalID: 8163779311472261496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_3
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1283
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd7a930a7dba8440800000000000000
+      internalID: 4938968273109286328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_4
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1278
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36391b8d41070f70800000000000000
+      internalID: 9153286200211617338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_5
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1045
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6521d400f5876b530800000000000000
+      internalID: 3870413279193797206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1031
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667bdb7410aaee490800000000000000
+      internalID: -7715042189163776154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_7
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1034
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8aeeaf765f22ea00800000000000000
+      internalID: 784241333671750283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1007
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7a9d07dc4dd2510800000000000000
+      internalID: 1526109827575162876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1013
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebdc21cd66349cc0800000000000000
+      internalID: -3705276748398797849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_10
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1008
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e09da4087c2e0e0800000000000000
+      internalID: -2242010310651605433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_11
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1000
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3183c67613b6f0b0800000000000000
+      internalID: -5695167769700236993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 991
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d2992499079a310800000000000000
+      internalID: 1416787361334373772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_13
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 989
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecceabb716396550800000000000000
+      internalID: 6154509841339436259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_14
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 986
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951c0f2dd14be5970800000000000000
+      internalID: 8745625566586126681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_15
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 973
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15500462180932d40800000000000000
+      internalID: 5558445249472234833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_16
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 976
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183f0cc8f531085e0800000000000000
+      internalID: -1909504940900813951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_17
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 960
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f76dc379ab2a7ca0800000000000000
+      internalID: -6018449945234937868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclops-left_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 955
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e8be07da4844e80800000000000000
+      internalID: -8195279541448765906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cyclops-left_0: 3621622455849467934
+      cyclops-left_1: -6975261517538031596
+      cyclops-left_10: -2242010310651605433
+      cyclops-left_11: -5695167769700236993
+      cyclops-left_12: 1416787361334373772
+      cyclops-left_13: 6154509841339436259
+      cyclops-left_14: 8745625566586126681
+      cyclops-left_15: 5558445249472234833
+      cyclops-left_16: -1909504940900813951
+      cyclops-left_17: -6018449945234937868
+      cyclops-left_18: -8195279541448765906
+      cyclops-left_2: 8163779311472261496
+      cyclops-left_3: 4938968273109286328
+      cyclops-left_4: 9153286200211617338
+      cyclops-left_5: 3870413279193797206
+      cyclops-left_6: -7715042189163776154
+      cyclops-left_7: 784241333671750283
+      cyclops-left_8: 1526109827575162876
+      cyclops-left_9: -3705276748398797849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
