@@ -7,6 +7,7 @@ public class EnemyHurtScript : MonoBehaviour
 {
     public GameObject player;
     public Rigidbody2D rb;
+    public Animator anim;
     public float knockbackSpeed;
     public int heatlh = 1;
     public float iFrameTime = 0.5f;
@@ -27,6 +28,7 @@ public class EnemyHurtScript : MonoBehaviour
         {
             rb.linearVelocity = (toPlayer.normalized * -5);
             heatlh--;
+            anim.SetTrigger("BatHit");
             if (heatlh <= 0)
             {
                 Instantiate(eye,transform.position, Quaternion.identity);
