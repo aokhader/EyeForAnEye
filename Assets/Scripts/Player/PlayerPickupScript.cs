@@ -9,6 +9,8 @@ public class PlayerPickupScript : MonoBehaviour
     public GameObject ui;
     InputAction useAction;
     public GameObject eye;
+    public CaptionProgressionScript captions;
+    private bool firstUse = true;
 
     void Awake()
     {
@@ -40,6 +42,11 @@ public class PlayerPickupScript : MonoBehaviour
         bool use = useAction.IsPressed();
         if (use && eyes>0)
         {
+            if (firstUse)
+            {
+                captions.ClearCaptions();
+                firstUse = false;
+            }
             Instantiate(eye, transform.position, Quaternion.identity);
             eyes--;
             UpdateEyeUI();

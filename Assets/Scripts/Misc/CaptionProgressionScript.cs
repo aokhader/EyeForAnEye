@@ -7,6 +7,7 @@ public class CaptionProgressionScript : MonoBehaviour
     public TMP_Text myText;
     public Animator spawnLevelAnim;
     public GameObject tutorialBat;
+    public GameObject healthBar;
     public Animator playerLightAnim;
     
     public struct Caption
@@ -18,18 +19,18 @@ public class CaptionProgressionScript : MonoBehaviour
     private Caption[] intro1Captions = new Caption[]
     {
         new Caption { text = "I can't help it...", duration = 6f },
-        new Caption { text = "My emotions control me...", duration = 6f },
-        new Caption { text = "Trapped in my mind,", duration = 2f },
+        new Caption { text = "My emotions are controlling me...", duration = 6f },
+        new Caption { text = "Trapped in my mind...", duration = 2f },
     };
     private Caption[] intro2Captions = new Caption[]
     {
-        new Caption { text = "And yet it is the escape.", duration = 6f },
-        new Caption { text = "I'm running from something...", duration = 6f },
-        new Caption { text = "It feels almost as if -- my own thoughts are attacking me.", duration = 1f },
+        new Caption { text = "And yet my mind is my escape.", duration = 6f },
+        new Caption { text = "It feels like I've been running for so long...", duration = 6f },
+        new Caption { text = "It feels almost like -- my own thoughts are against me.", duration = 1f },
     };
     private Caption[] intro3Captions = new Caption[]
     {
-        new Caption { text = "What is this?", duration = 6f },
+        new Caption { text = "What is this?", duration = 0f },
     };
 
     void Start()
@@ -44,6 +45,10 @@ public class CaptionProgressionScript : MonoBehaviour
     public void ContinueTutorialCaptions1()
     {
         StartCoroutine(PlayIntro3Captions());
+    }
+    public void ClearCaptions()
+    {
+        myText.text = "";
     }
 
     IEnumerator PlayIntro1Captions()
@@ -68,6 +73,7 @@ public class CaptionProgressionScript : MonoBehaviour
             yield return new WaitForSeconds(intro2Captions[i].duration);
         }
         tutorialBat.SetActive(true);
+        healthBar.SetActive(true);
     }
     IEnumerator PlayIntro3Captions()
     {

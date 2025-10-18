@@ -8,30 +8,39 @@ public class PlayerHurtScript : MonoBehaviour
     public GameObject gameOverUI;
     public Animator anim;
     public float gameOverTime = 10f;
+    public GameObject[] hearts;
     private float nextHitTime = 0f;
-    private float quitTime=-1f;
+    public GameObject corpse;
+    public GameManagerScript game;
+    public CircleCollider2D col;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("EnemyAttack") && Time.time > nextHitTime)
+        if (other.gameObject.layer == LayerMask.NameToLayer("EnemyAttack"))
         {
             health--;
             anim.SetTrigger("PlayerHit");
+            for (int i = 0; i < 3; i++)
+            {
+                hearts[i].SetActive(i < health);
+            }
             if (health <= 0)
             {
                 gameOverUI.SetActive(true);
-                quitTime = Time.time + gameOverTime;
-
+                Instantiate(corpse, transform.position, Quaternion.identity);
+                game.RestartScene(gameOverTime);
+                gameObject.SetActive(false);
             }
             nextHitTime = Time.time + iFrameTime;
+            col.enabled = false;
         }
     }
 
     private void FixedUpdate()
     {
-        if (Time.time>quitTime&&quitTime>0)
+        if (Time.time > nextHitTime)
         {
-            Scene active = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(active.buildIndex);
+            col.enabled = true;
         }
     }
 }
