@@ -42,12 +42,12 @@ public class PlayerPickupScript : MonoBehaviour
 
     void Update()
     {
-        if (Time.time > nextEye)
-        {
-            nextEye = Time.time + eyeCooldown;
-            eyes++;
-            UpdateEyeUI();
-        }
+        // if (Time.time > nextEye)
+        // {
+        //     nextEye = Time.time + eyeCooldown;
+        //     eyes++;
+        //     UpdateEyeUI();
+        // }
         bool use = useAction.triggered;
         if (use && eyes>0)
         {
