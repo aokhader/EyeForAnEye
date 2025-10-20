@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerPickupScript : MonoBehaviour
 {
-    bool firstEye = true;
+    public bool firstEye = true;
     private int eyes = 0;
     public GameObject ui;
     InputAction useAction;
@@ -57,9 +57,12 @@ public class PlayerPickupScript : MonoBehaviour
                 firstUse = false;
                 SceneManager.LoadScene("Level1Scene");
             }
-            Instantiate(eye, transform.position, Quaternion.identity);
-            eyes--;
-            UpdateEyeUI();
+            else
+            {
+                Instantiate(eye, transform.position, Quaternion.identity);
+                eyes--;
+                UpdateEyeUI();
+            }
         }
     }
 }
