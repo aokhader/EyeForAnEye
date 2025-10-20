@@ -10,7 +10,7 @@ public class PlayerPickupScript : MonoBehaviour
     InputAction useAction;
     public GameObject eye;
     public CaptionProgressionScript captions;
-    private bool firstUse = true;
+    public bool firstUse = true;
 
     void Awake()
     {

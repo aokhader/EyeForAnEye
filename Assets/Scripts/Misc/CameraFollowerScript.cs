@@ -11,7 +11,7 @@ public class CameraFollowerScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void LateUpdate()
     {
         Vector3 lerpAmt = (player.transform.position - transform.position) * lerpFactor;
         transform.position += new Vector3(lerpAmt.x,lerpAmt.y,0);
