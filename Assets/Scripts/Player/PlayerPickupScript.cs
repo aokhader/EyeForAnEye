@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerPickupScript : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class PlayerPickupScript : MonoBehaviour
     public GameObject eye;
     public CaptionProgressionScript captions;
     public bool firstUse = true;
+    public float eyeCooldown = 15f;
+    private float nextEye;
 
     void Awake()
     {
@@ -37,15 +40,22 @@ public class PlayerPickupScript : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        bool use = useAction.IsPressed();
+        if (Time.time > nextEye)
+        {
+            nextEye = Time.time + eyeCooldown;
+            eyes++;
+            UpdateEyeUI();
+        }
+        bool use = useAction.triggered;
         if (use && eyes>0)
         {
             if (firstUse)
             {
                 captions.ClearCaptions();
                 firstUse = false;
+                SceneManager.LoadScene("Level1Scene");
             }
             Instantiate(eye, transform.position, Quaternion.identity);
             eyes--;

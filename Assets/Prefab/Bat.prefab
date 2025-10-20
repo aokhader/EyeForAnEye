@@ -77,10 +77,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   player: {fileID: 0}
   rb: {fileID: 467525634540540900}
-  moveForce: 2
-  swoopForce: 8
+  moveForce: 1
+  swoopForce: 2
   swoopRate: 5
-  latchOnDistance: 6
+  latchOnDistance: 5
 --- !u!114 &7969443896162597499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   player: {fileID: 0}
   rb: {fileID: 467525634540540900}
-  anim: {fileID: 0}
+  anim: {fileID: 585305708310160992}
   knockbackSpeed: 2
   heatlh: 3
   iFrameTime: 0.5
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3663169002658146831}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 

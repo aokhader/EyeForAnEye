@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 5350142241152337239}
   - component: {fileID: 1276850405786995725}
   - component: {fileID: 7099633585097760283}
+  - component: {fileID: 5450201233495895918}
   m_Layer: 0
   m_Name: Eye
   m_TagString: Untagged
@@ -295,6 +296,28 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 6.6949997
+--- !u!95 &5450201233495895918
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6725672846291633967}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89da42839d38694438eff7fd2d40d966, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6768812279992097215
 GameObject:
   m_ObjectHideFlags: 0

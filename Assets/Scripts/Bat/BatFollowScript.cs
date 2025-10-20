@@ -9,8 +9,15 @@ public class BatFollowScript : MonoBehaviour
     public float swoopRate = 5f;
     private float nextSwoop = 0f;
     public float latchOnDistance = 5f;
-    private enum SwoopState {Approaching, Viscinity, Resting };
-    private SwoopState state = SwoopState.Resting;
+    public float wakeDist = 10f;
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, wakeDist);
+    }
+    private enum SwoopState {Sleeping, Approaching, Viscinity, Resting };
+    private SwoopState state = SwoopState.Sleeping;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,12 +31,22 @@ public class BatFollowScript : MonoBehaviour
 
         switch(state)
         {
+            case SwoopState.Sleeping:
+                if (toPlayer.magnitude < wakeDist)
+                {
+                    state = SwoopState.Approaching;
+                }
+                break;
             case SwoopState.Approaching:
                 rb.AddForce(toPlayer.normalized * moveForce);
                 if (toPlayer.magnitude < latchOnDistance)
                 {
                     state = SwoopState.Viscinity;
                 }
+                // else if (toPlayer.magnitude > wakeDist)
+                // {
+                //     state = SwoopState.Sleeping;
+                // }
                 break;
             case SwoopState.Viscinity:
                 rb.AddForce(toPlayer.normalized * swoopForce);
