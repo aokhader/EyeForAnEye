@@ -39,6 +39,7 @@ public class PlayerKeyScript : MonoBehaviour
             if (keys > 0)
             {
                 keys--;
+                UpdateKeyUI();
                 other.gameObject.GetComponent<DoorScript>().OpenDoor();
             }
         }
