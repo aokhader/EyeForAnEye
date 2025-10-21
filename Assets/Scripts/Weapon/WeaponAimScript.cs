@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 
 public class WeaponAimScript : MonoBehaviour
 {
+    InputAction mouseLookAction;
     InputAction lookAction;
     InputAction atkAction;
     public SpriteRenderer sr;
@@ -20,30 +21,36 @@ public class WeaponAimScript : MonoBehaviour
 
     void Awake()
     {
-        lookAction = InputSystem.actions.FindAction("MouseLook");
+        mouseLookAction = InputSystem.actions.FindAction("MouseLook");
+        lookAction = InputSystem.actions.FindAction("Look");
         atkAction = InputSystem.actions.FindAction("Attack");
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Vector2 mousePos = lookAction.ReadValue<Vector2>();
-        Vector2 screenCenter = new Vector2(Screen.width / 2f, Screen.height / 2f);
-        Vector2 mouseDir = (mousePos - screenCenter).normalized;
+        Vector2 dir = lookAction.ReadValue<Vector2>();
+        if (dir == Vector2.zero)
+        {
+            Vector2 mousePos = mouseLookAction.ReadValue<Vector2>();
+            Vector2 screenCenter = new Vector2(Screen.width / 2f, Screen.height / 2f);
+            dir = (mousePos - screenCenter).normalized;
+        }
+
         bool attack = atkAction.IsPressed();
         if (attack && Time.time > nextFire)
         {
             anim.Play("SwordSlashAnim");
             Vector3 spawnPos = transform.position;
-            spawnPos.x += mouseDir.x * slashOffset;
-            spawnPos.y += mouseDir.y * slashOffset;
+            spawnPos.x += dir.x * slashOffset;
+            spawnPos.y += dir.y * slashOffset;
             Vector3 rotation = transform.eulerAngles;
             rotation.z -= 90;
             GameObject obj = Instantiate(swordSlashEffect, spawnPos, Quaternion.Euler(rotation));
             nextFire = Time.time + fireRate;
         }
 
-        float angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
         Vector3 globalEuler = sword.transform.eulerAngles;
