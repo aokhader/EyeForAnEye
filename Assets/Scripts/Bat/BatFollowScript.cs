@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BatFollowScript : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
     public Rigidbody2D rb;
     public float moveForce = 1f;
     public float swoopForce = 2f;
@@ -21,6 +21,7 @@ public class BatFollowScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         
     }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TutorialBatScript : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
     public Rigidbody2D rb;
     public Animator anim;
     public float knockbackSpeed;
@@ -17,6 +17,7 @@ public class TutorialBatScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         
     }
 

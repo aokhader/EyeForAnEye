@@ -16,7 +16,7 @@ public class PlayerHurtScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("EnemyAttack"))
+        if (other.CompareTag("Bat"))
         {
             health--;
             anim.SetTrigger("PlayerHit");

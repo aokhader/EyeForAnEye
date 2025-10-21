@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class EnemyHurtScript : MonoBehaviour
 {
-    public GameObject player;
+    public bool dropsEye = true;
+    private GameObject player;
     public Rigidbody2D rb;
     public Animator anim;
     public float knockbackSpeed;
@@ -16,6 +17,7 @@ public class EnemyHurtScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         
     }
 
@@ -26,12 +28,18 @@ public class EnemyHurtScript : MonoBehaviour
         // Optional: call damage if the target implements it
         if (other.name=="Sword_0" && Time.time > nextDmg)
         {
-            rb.linearVelocity = (toPlayer.normalized * -5);
+            if (rb != null)
+            {
+                rb.linearVelocity = (toPlayer.normalized * -5);
+            }
             heatlh--;
-            anim.SetTrigger("BatHit");
+            anim.SetTrigger("Hit");
             if (heatlh <= 0)
             {
-                Instantiate(eye,transform.position, Quaternion.identity);
+                if (dropsEye)
+                {
+                    Instantiate(eye, transform.position, Quaternion.identity);
+                }
                 Destroy(gameObject);
             }
             nextDmg = Time.time + iFrameTime;
