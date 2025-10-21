@@ -27,8 +27,9 @@ public class PlayerPickupScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Pickups"))
+        if (other.CompareTag("DroppedEye"))
         {
+            Destroy(other.gameObject);
             if (firstEye)
             {
                 ui.SetActive(true);
@@ -36,7 +37,6 @@ public class PlayerPickupScript : MonoBehaviour
             }
             eyes++;
             UpdateEyeUI();
-            Destroy(other.gameObject);
         }
     }
 
