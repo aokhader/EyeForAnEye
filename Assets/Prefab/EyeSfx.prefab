@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8076253413999107336, guid: 820846dcd577b044abe793d3539a117c, type: 3}
       propertyPath: m_Volume
-      value: 0.08
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8076253413999107336, guid: 820846dcd577b044abe793d3539a117c, type: 3}
       propertyPath: m_Resource

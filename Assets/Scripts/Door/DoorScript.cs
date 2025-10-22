@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
+    public Animator anim;
     public GameObject sfx;
     public BoxCollider2D col;
 
@@ -22,6 +23,7 @@ public class DoorScript : MonoBehaviour
     {
         col.enabled = false;
         transform.Find("Obscure").gameObject.SetActive(false);
+        anim.SetTrigger("Open");
         Instantiate(sfx);
     }
 }
