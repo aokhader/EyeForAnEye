@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: 07a5847f6efeff14291da9df731aeae3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2250449941388777960
+    second: inception-in-scene_0
+  - first:
+      213: -616786185306817938
+    second: inception-in-scene_1
+  - first:
+      213: -6267686243479916974
+    second: inception-in-scene_2
+  - first:
+      213: 6152094373767098310
+    second: inception-in-scene_3
+  - first:
+      213: 4323729210526226694
+    second: inception-in-scene_4
+  - first:
+      213: 3000673147342394227
+    second: inception-in-scene_5
+  - first:
+      213: -3836625658627189767
+    second: inception-in-scene_6
+  - first:
+      213: -7957409591706564508
+    second: inception-in-scene_7
+  - first:
+      213: -4410651898701676342
+    second: inception-in-scene_8
+  - first:
+      213: -6606505855794416471
+    second: inception-in-scene_9
+  - first:
+      213: 6858581027161703686
+    second: inception-in-scene_10
+  - first:
+      213: 9052673790661523415
+    second: inception-in-scene_11
+  - first:
+      213: 4288380625840970304
+    second: inception-in-scene_12
+  - first:
+      213: -1394021337620253588
+    second: inception-in-scene_13
+  - first:
+      213: 7482676535345234387
+    second: inception-in-scene_14
+  - first:
+      213: -7042493208229823125
+    second: inception-in-scene_15
+  - first:
+      213: 5728401790502561261
+    second: inception-in-scene_16
+  - first:
+      213: -1980789522031641737
+    second: inception-in-scene_17
+  - first:
+      213: 3468520098883378660
+    second: inception-in-scene_18
+  - first:
+      213: 2907122993920739151
+    second: inception-in-scene_19
+  - first:
+      213: 2002283399424233036
+    second: inception-in-scene_20
+  - first:
+      213: -9031051366162285502
+    second: inception-in-scene_21
+  - first:
+      213: -2926477255309819191
+    second: inception-in-scene_22
+  - first:
+      213: -8599552866161464719
+    second: inception-in-scene_23
+  - first:
+      213: -3471508326810421662
+    second: inception-in-scene_24
+  - first:
+      213: -3874454959188090526
+    second: inception-in-scene_25
+  - first:
+      213: 9191509572460341618
+    second: inception-in-scene_26
+  - first:
+      213: 7685574485315250986
+    second: inception-in-scene_27
+  - first:
+      213: 7109441446050802940
+    second: inception-in-scene_28
+  - first:
+      213: -4681017651388056704
+    second: inception-in-scene_29
+  - first:
+      213: 5170525980399899305
+    second: inception-in-scene_30
+  - first:
+      213: -3052286788309871293
+    second: inception-in-scene_31
+  - first:
+      213: 8406861497798834433
+    second: inception-in-scene_32
+  - first:
+      213: 3576086279899223700
+    second: inception-in-scene_33
+  - first:
+      213: 1542798951688760625
+    second: inception-in-scene_34
+  - first:
+      213: 3464765631561290029
+    second: inception-in-scene_35
+  - first:
+      213: -3750004863346713682
+    second: inception-in-scene_36
+  - first:
+      213: 1465531075924533666
+    second: inception-in-scene_37
+  - first:
+      213: 8976226275556751287
+    second: inception-in-scene_38
+  - first:
+      213: -8283821550059689093
+    second: inception-in-scene_39
+  - first:
+      213: -6521885016241976263
+    second: inception-in-scene_40
+  - first:
+      213: 1768097289217484276
+    second: inception-in-scene_41
+  - first:
+      213: 1427076100308774176
+    second: inception-in-scene_42
+  - first:
+      213: 6010594895664901441
+    second: inception-in-scene_43
+  - first:
+      213: -8798911197700550629
+    second: inception-in-scene_44
+  - first:
+      213: 7701370635218965796
+    second: inception-in-scene_45
+  - first:
+      213: -7520115008778902475
+    second: inception-in-scene_46
+  - first:
+      213: -2366504259736508870
+    second: inception-in-scene_47
+  - first:
+      213: 1189703171726055213
+    second: inception-in-scene_48
+  - first:
+      213: 3648712896096268853
+    second: inception-in-scene_49
+  - first:
+      213: 4054598133660628528
+    second: inception-in-scene_50
+  - first:
+      213: -2760429797031668190
+    second: inception-in-scene_51
+  - first:
+      213: -7715572019367707546
+    second: inception-in-scene_52
+  - first:
+      213: -1872850789241223965
+    second: inception-in-scene_53
+  - first:
+      213: -2697986833401204237
+    second: inception-in-scene_54
+  - first:
+      213: -2014363592426319679
+    second: inception-in-scene_55
+  - first:
+      213: 4760814802771244912
+    second: inception-in-scene_56
+  - first:
+      213: -4893754470372602938
+    second: inception-in-scene_57
+  - first:
+      213: -8967263469234917405
+    second: inception-in-scene_58
+  - first:
+      213: -1832129771226393437
+    second: inception-in-scene_59
+  - first:
+      213: 1007458816330333002
+    second: inception-in-scene_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inception-in-scene_0
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 158
+        width: 966
+        height: 1348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9d64d5c443b3f10800000000000000
+      internalID: 2250449941388777960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_1
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1497
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a3b6a7b3cb077f0800000000000000
+      internalID: -616786185306817938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_2
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1503
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ee6c5b194b409a0800000000000000
+      internalID: -6267686243479916974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_3
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1499
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf211ddc31a06550800000000000000
+      internalID: 6152094373767098310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_4
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1481
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60955621fc8f00c30800000000000000
+      internalID: 4323729210526226694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_5
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1505
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373956a445884a920800000000000000
+      internalID: 3000673147342394227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_6
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1498
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f390617a4191cac0800000000000000
+      internalID: -3836625658627189767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_7
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1499
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4684b02f22a919190800000000000000
+      internalID: -7957409591706564508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_8
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1495
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac00cfd77773ac2c0800000000000000
+      internalID: -4410651898701676342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_9
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1502
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4f5da4de9f054a0800000000000000
+      internalID: -6606505855794416471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_10
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1502
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605053b1b139e2f50800000000000000
+      internalID: 6858581027161703686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_11
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1501
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d77ed779de81ad70800000000000000
+      internalID: 9052673790661523415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_12
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1494
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a1be85573638b30800000000000000
+      internalID: 4288380625840970304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_13
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1503
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6474d1baf077ace0800000000000000
+      internalID: -1394021337620253588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_14
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1476af9aec7d760800000000000000
+      internalID: 7482676535345234387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_15
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1497
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d3c566db9044e90800000000000000
+      internalID: -7042493208229823125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_16
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1494
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5ed9df31f5f7f40800000000000000
+      internalID: 5728401790502561261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_17
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1492
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bfc74ac62d284e0800000000000000
+      internalID: -1980789522031641737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_18
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1495
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed1f3627a8a22030800000000000000
+      internalID: 3468520098883378660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_19
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1492
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47040bd5fc285820800000000000000
+      internalID: 2907122993920739151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1493
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ec75aa42a89cb10800000000000000
+      internalID: 2002283399424233036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_21
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1497
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c379b81a24ba280800000000000000
+      internalID: -9031051366162285502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_22
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1475
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c28ff101701367d0800000000000000
+      internalID: -2926477255309819191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_23
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1486
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ae0490b3048a880800000000000000
+      internalID: -8599552866161464719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_24
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1491
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26677a1d199b2dfc0800000000000000
+      internalID: -3471508326810421662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_25
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1491
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261e75b0ebb2b3ac0800000000000000
+      internalID: -3874454959188090526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_26
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1490
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279e918e14dce8f70800000000000000
+      internalID: 9191509572460341618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_27
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1491
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b65044645a8aa60800000000000000
+      internalID: 7685574485315250986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1496
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc2c47e35fc9a260800000000000000
+      internalID: 7109441446050802940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_29
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1492
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b7ea54f3fa90fb0800000000000000
+      internalID: -4681017651388056704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_30
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1494
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a21aab0cf561c740800000000000000
+      internalID: 5170525980399899305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_31
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1490
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3451c26765914a5d0800000000000000
+      internalID: -3052286788309871293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_32
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1492
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1093534adfb2ba470800000000000000
+      internalID: 8406861497798834433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_33
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1488
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4969a8f468fc0a130800000000000000
+      internalID: 3576086279899223700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_34
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1102
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13de043f87f196510800000000000000
+      internalID: 1542798951688760625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_35
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1099
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21513b1cf1551030800000000000000
+      internalID: 3464765631561290029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_36
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1080
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab5b36f17e45fbc0800000000000000
+      internalID: -3750004863346713682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_37
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1058
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a127c3bfbc965410800000000000000
+      internalID: 1465531075924533666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_38
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1058
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b776125d36f19c70800000000000000
+      internalID: 8976226275556751287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_39
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1040
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b67f59034f90d80800000000000000
+      internalID: -8283821550059689093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_40
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1038
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c44f4d12c9d75a0800000000000000
+      internalID: -6521885016241976263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_41
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1045
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5a324ed1b898810800000000000000
+      internalID: 1768097289217484276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_42
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1038
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02daa5af62efdc310800000000000000
+      internalID: 1427076100308774176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_43
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1019
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14de1ec463ce96350800000000000000
+      internalID: 6010594895664901441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_44
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1026
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b101ad262ecf3e580800000000000000
+      internalID: -8798911197700550629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_45
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1009
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425d9d30ac3c0ea60800000000000000
+      internalID: 7701370635218965796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_46
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1015
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53466a72e3f23a790800000000000000
+      internalID: -7520115008778902475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_47
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 997
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36e4fef9ec782fd0800000000000000
+      internalID: -2366504259736508870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_48
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1000
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2713ea3bbca28010800000000000000
+      internalID: 1189703171726055213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_49
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 992
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532743b1c05d2a230800000000000000
+      internalID: 3648712896096268853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_50
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 976
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036bdc73583d44830800000000000000
+      internalID: 4054598133660628528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_51
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 983
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226168899bbf0b9d0800000000000000
+      internalID: -2760429797031668190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_52
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 961
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cf4a29028cce490800000000000000
+      internalID: -7715572019367707546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_53
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 947
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e487f5412c4206e0800000000000000
+      internalID: -1872850789241223965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_54
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 944
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1b0720543de8ad0800000000000000
+      internalID: -2697986833401204237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_55
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 925
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c013f83cfa8b04e0800000000000000
+      internalID: -2014363592426319679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_56
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 925
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077f998d6dfc11240800000000000000
+      internalID: 4760814802771244912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_57
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 930
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb0677cc34e51cb0800000000000000
+      internalID: -4893754470372602938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_58
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 918
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef6ae4a261ed8380800000000000000
+      internalID: -8967263469234917405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_59
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 898
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a412ab1ea7f296e0800000000000000
+      internalID: -1832129771226393437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inception-in-scene_60
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 880
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b7439a4763bfd00800000000000000
+      internalID: 1007458816330333002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inception-in-scene_0: 2250449941388777960
+      inception-in-scene_1: -616786185306817938
+      inception-in-scene_10: 6858581027161703686
+      inception-in-scene_11: 9052673790661523415
+      inception-in-scene_12: 4288380625840970304
+      inception-in-scene_13: -1394021337620253588
+      inception-in-scene_14: 7482676535345234387
+      inception-in-scene_15: -7042493208229823125
+      inception-in-scene_16: 5728401790502561261
+      inception-in-scene_17: -1980789522031641737
+      inception-in-scene_18: 3468520098883378660
+      inception-in-scene_19: 2907122993920739151
+      inception-in-scene_2: -6267686243479916974
+      inception-in-scene_20: 2002283399424233036
+      inception-in-scene_21: -9031051366162285502
+      inception-in-scene_22: -2926477255309819191
+      inception-in-scene_23: -8599552866161464719
+      inception-in-scene_24: -3471508326810421662
+      inception-in-scene_25: -3874454959188090526
+      inception-in-scene_26: 9191509572460341618
+      inception-in-scene_27: 7685574485315250986
+      inception-in-scene_28: 7109441446050802940
+      inception-in-scene_29: -4681017651388056704
+      inception-in-scene_3: 6152094373767098310
+      inception-in-scene_30: 5170525980399899305
+      inception-in-scene_31: -3052286788309871293
+      inception-in-scene_32: 8406861497798834433
+      inception-in-scene_33: 3576086279899223700
+      inception-in-scene_34: 1542798951688760625
+      inception-in-scene_35: 3464765631561290029
+      inception-in-scene_36: -3750004863346713682
+      inception-in-scene_37: 1465531075924533666
+      inception-in-scene_38: 8976226275556751287
+      inception-in-scene_39: -8283821550059689093
+      inception-in-scene_4: 4323729210526226694
+      inception-in-scene_40: -6521885016241976263
+      inception-in-scene_41: 1768097289217484276
+      inception-in-scene_42: 1427076100308774176
+      inception-in-scene_43: 6010594895664901441
+      inception-in-scene_44: -8798911197700550629
+      inception-in-scene_45: 7701370635218965796
+      inception-in-scene_46: -7520115008778902475
+      inception-in-scene_47: -2366504259736508870
+      inception-in-scene_48: 1189703171726055213
+      inception-in-scene_49: 3648712896096268853
+      inception-in-scene_5: 3000673147342394227
+      inception-in-scene_50: 4054598133660628528
+      inception-in-scene_51: -2760429797031668190
+      inception-in-scene_52: -7715572019367707546
+      inception-in-scene_53: -1872850789241223965
+      inception-in-scene_54: -2697986833401204237
+      inception-in-scene_55: -2014363592426319679
+      inception-in-scene_56: 4760814802771244912
+      inception-in-scene_57: -4893754470372602938
+      inception-in-scene_58: -8967263469234917405
+      inception-in-scene_59: -1832129771226393437
+      inception-in-scene_6: -3836625658627189767
+      inception-in-scene_60: 1007458816330333002
+      inception-in-scene_7: -7957409591706564508
+      inception-in-scene_8: -4410651898701676342
+      inception-in-scene_9: -6606505855794416471
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

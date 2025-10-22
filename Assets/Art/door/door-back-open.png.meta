@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: f96f14f597da54c40878cd214862c4a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3233265696105814890
+    second: door-back-open_0
+  - first:
+      213: 2623958565451094810
+    second: door-back-open_1
+  - first:
+      213: 4853851796801405598
+    second: door-back-open_2
+  - first:
+      213: -6623208871699839099
+    second: door-back-open_3
+  - first:
+      213: -7866633874554134682
+    second: door-back-open_4
+  - first:
+      213: 8212539434032490621
+    second: door-back-open_5
+  - first:
+      213: 1469927959461060156
+    second: door-back-open_6
+  - first:
+      213: 3622041923469225038
+    second: door-back-open_7
+  - first:
+      213: 3358183993103400527
+    second: door-back-open_8
+  - first:
+      213: -4870520293818292027
+    second: door-back-open_9
+  - first:
+      213: -4595196560745734569
+    second: door-back-open_10
+  - first:
+      213: 6557053849428414693
+    second: door-back-open_11
+  - first:
+      213: -6976300042821074925
+    second: door-back-open_12
+  - first:
+      213: -2315916321400852558
+    second: door-back-open_13
+  - first:
+      213: -4949161414029226131
+    second: door-back-open_14
+  - first:
+      213: 5058762757183502606
+    second: door-back-open_15
+  - first:
+      213: 638086527276562343
+    second: door-back-open_16
+  - first:
+      213: -8382437071787455805
+    second: door-back-open_17
+  - first:
+      213: 6685393571444664113
+    second: door-back-open_18
+  - first:
+      213: -8944767205082290133
+    second: door-back-open_19
+  - first:
+      213: 3193298486580505631
+    second: door-back-open_20
+  - first:
+      213: -541252051997228174
+    second: door-back-open_21
+  - first:
+      213: -5564072544410642429
+    second: door-back-open_22
+  - first:
+      213: -4552997087797358859
+    second: door-back-open_23
+  - first:
+      213: 3034004105659121849
+    second: door-back-open_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door-back-open_0
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 152
+        width: 1327
+        height: 1399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bd7d0250ededc20800000000000000
+      internalID: 3233265696105814890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1129
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b5e07b96c2a6420800000000000000
+      internalID: 2623958565451094810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_2
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1110
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e924dbc0e785c5340800000000000000
+      internalID: 4853851796801405598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1117
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5878d195f92a514a0800000000000000
+      internalID: -6623208871699839099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1093
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f55299b2a14d290800000000000000
+      internalID: -7866633874554134682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_5
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1085
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78e4657a1dc8f170800000000000000
+      internalID: 8212539434032490621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1069
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e571de0bb366410800000000000000
+      internalID: 1469927959461060156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1061
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ca4f160f3144230800000000000000
+      internalID: 3622041923469225038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1052
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eb45f9c8aaa9e20800000000000000
+      internalID: 3358183993103400527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1042
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c821af099f686cb0800000000000000
+      internalID: -4870520293818292027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_10
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1042
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e57ab03159a30c0800000000000000
+      internalID: -4595196560745734569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_11
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1023
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0d94c3cb55ffa50800000000000000
+      internalID: 6557053849428414693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1024
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3108b15b2143f2f90800000000000000
+      internalID: -6976300042821074925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1017
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf6f5d30663cdfd0800000000000000
+      internalID: -2315916321400852558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1004
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fc7bc6aeb015bb0800000000000000
+      internalID: -4949161414029226131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_15
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1002
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09f5e8dce5543640800000000000000
+      internalID: 5058762757183502606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 989
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7384ad050fad800800000000000000
+      internalID: 638086527276562343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 983
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca0b0035e99bab80800000000000000
+      internalID: -8382437071787455805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 981
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137a3a1580a47cc50800000000000000
+      internalID: 6685393571444664113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_19
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 975
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28a18e4e9dcdd380800000000000000
+      internalID: -8944767205082290133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_20
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 959
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c6c620e00e05c20800000000000000
+      internalID: 3193298486580505631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_21
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 946
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27301ca50261d78f0800000000000000
+      internalID: -541252051997228174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_22
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 925
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30856e5208178c2b0800000000000000
+      internalID: -5564072544410642429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_23
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 909
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe437e754180d0c0800000000000000
+      internalID: -4552997087797358859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-back-open_24
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 914
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b083e4c8a2fa1a20800000000000000
+      internalID: 3034004105659121849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      door-back-open_0: 3233265696105814890
+      door-back-open_1: 2623958565451094810
+      door-back-open_10: -4595196560745734569
+      door-back-open_11: 6557053849428414693
+      door-back-open_12: -6976300042821074925
+      door-back-open_13: -2315916321400852558
+      door-back-open_14: -4949161414029226131
+      door-back-open_15: 5058762757183502606
+      door-back-open_16: 638086527276562343
+      door-back-open_17: -8382437071787455805
+      door-back-open_18: 6685393571444664113
+      door-back-open_19: -8944767205082290133
+      door-back-open_2: 4853851796801405598
+      door-back-open_20: 3193298486580505631
+      door-back-open_21: -541252051997228174
+      door-back-open_22: -5564072544410642429
+      door-back-open_23: -4552997087797358859
+      door-back-open_24: 3034004105659121849
+      door-back-open_3: -6623208871699839099
+      door-back-open_4: -7866633874554134682
+      door-back-open_5: 8212539434032490621
+      door-back-open_6: 1469927959461060156
+      door-back-open_7: 3622041923469225038
+      door-back-open_8: 3358183993103400527
+      door-back-open_9: -4870520293818292027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

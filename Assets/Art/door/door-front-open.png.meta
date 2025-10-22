@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 0a8cf35e86571ec4ea06117ad6e896a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8989906642518247251
+    second: door-front-open_0
+  - first:
+      213: -1928967525617003537
+    second: door-front-open_1
+  - first:
+      213: 8743876271093439290
+    second: door-front-open_2
+  - first:
+      213: 7423061619032291988
+    second: door-front-open_3
+  - first:
+      213: 3154973483877695502
+    second: door-front-open_4
+  - first:
+      213: -3204501401194922992
+    second: door-front-open_5
+  - first:
+      213: 5101606293235601850
+    second: door-front-open_6
+  - first:
+      213: 2540551092544935996
+    second: door-front-open_7
+  - first:
+      213: 4447893683901395732
+    second: door-front-open_8
+  - first:
+      213: -4042156337057418477
+    second: door-front-open_9
+  - first:
+      213: 4793897790457210894
+    second: door-front-open_10
+  - first:
+      213: -1364390014812294169
+    second: door-front-open_11
+  - first:
+      213: 2862636411385803953
+    second: door-front-open_12
+  - first:
+      213: 1113597836790679133
+    second: door-front-open_13
+  - first:
+      213: 2156493084920865287
+    second: door-front-open_14
+  - first:
+      213: -3585590508389552379
+    second: door-front-open_15
+  - first:
+      213: -7247223086829032141
+    second: door-front-open_16
+  - first:
+      213: -1752289704949608664
+    second: door-front-open_17
+  - first:
+      213: 754822569119059180
+    second: door-front-open_18
+  - first:
+      213: -4581412886846661429
+    second: door-front-open_19
+  - first:
+      213: -72983562702788259
+    second: door-front-open_20
+  - first:
+      213: 4889755198281173524
+    second: door-front-open_21
+  - first:
+      213: -649260692931688856
+    second: door-front-open_22
+  - first:
+      213: -4451352490747825436
+    second: door-front-open_23
+  - first:
+      213: 2181349485821042531
+    second: door-front-open_24
+  - first:
+      213: 4468882152149477569
+    second: door-front-open_25
+  - first:
+      213: 4400884536315874634
+    second: door-front-open_26
+  - first:
+      213: -238739351296102810
+    second: door-front-open_27
+  - first:
+      213: -3673298678767867284
+    second: door-front-open_28
+  - first:
+      213: -464738192581843692
+    second: door-front-open_29
+  - first:
+      213: 6166146601107790958
+    second: door-front-open_30
+  - first:
+      213: 524476163015415193
+    second: door-front-open_31
+  - first:
+      213: -5619947857722868198
+    second: door-front-open_32
+  - first:
+      213: 4495509373164999601
+    second: door-front-open_33
+  - first:
+      213: 4105998793056832462
+    second: door-front-open_34
+  - first:
+      213: -3157808183453986554
+    second: door-front-open_35
+  - first:
+      213: -1999232484920520744
+    second: door-front-open_36
+  - first:
+      213: -7632229882718731056
+    second: door-front-open_37
+  - first:
+      213: 3755839353759114164
+    second: door-front-open_38
+  - first:
+      213: -7593088095537511955
+    second: door-front-open_39
+  - first:
+      213: 3256127342119764169
+    second: door-front-open_40
+  - first:
+      213: -8925769487028328565
+    second: door-front-open_41
+  - first:
+      213: 1699997981775811484
+    second: door-front-open_42
+  - first:
+      213: -6934898062648356884
+    second: door-front-open_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door-front-open_0
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 0
+        width: 1315
+        height: 1615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da876c80a8f6d3380800000000000000
+      internalID: -8989906642518247251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_1
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1596
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3955c614eea35e0800000000000000
+      internalID: -1928967525617003537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1589
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bdd7a342d785970800000000000000
+      internalID: 8743876271093439290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1083
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a7144a633040760800000000000000
+      internalID: 7423061619032291988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 993
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e008e46faa7b8cb20800000000000000
+      internalID: 3154973483877695502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 985
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cf88b24f25783d0800000000000000
+      internalID: -3204501401194922992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 985
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1943ce4eb8cc640800000000000000
+      internalID: 5101606293235601850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 977
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c381fdc12c9d14320800000000000000
+      internalID: 2540551092544935996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_8
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 971
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41375a35db71abd30800000000000000
+      internalID: 4447893683901395732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 956
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313391b4a3067e7c0800000000000000
+      internalID: -4042156337057418477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 954
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e086bb924a8578240800000000000000
+      internalID: 4793897790457210894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 934
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3f508a286b01de0800000000000000
+      internalID: -1364390014812294169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 943
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4ffb536a02ab720800000000000000
+      internalID: 2862636411385803953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_13
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 944
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d564d8c155b447f00800000000000000
+      internalID: 1113597836790679133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 936
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7026b4ff8076ded10800000000000000
+      internalID: 2156493084920865287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 924
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fad6d0e6c6d3ec0800000000000000
+      internalID: -3585590508389552379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 912
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dab8dfff0bc6b90800000000000000
+      internalID: -7247223086829032141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_17
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 906
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f87e02ccd9ea7e0800000000000000
+      internalID: -1752289704949608664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_18
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 899
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec0acc902ba97a00800000000000000
+      internalID: 754822569119059180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_19
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 890
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc9b16b04d8b60c0800000000000000
+      internalID: -4581412886846661429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_20
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 902
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5968ae16d5bcfef0800000000000000
+      internalID: -72983562702788259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 894
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a4b202276ebd340800000000000000
+      internalID: 4889755198281173524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_22
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 890
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866ce27f6dc5df6f0800000000000000
+      internalID: -649260692931688856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 874
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2fce27e7e9932c0800000000000000
+      internalID: -4451352490747825436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_24
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 875
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f1851dcc5b54e10800000000000000
+      internalID: 2181349485821042531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_25
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 879
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8e3f5e3a8a40e30800000000000000
+      internalID: 4468882152149477569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_26
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 861
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d0e9c3b25131d30800000000000000
+      internalID: 4400884536315874634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_27
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 866
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ea61c23d3dfacf0800000000000000
+      internalID: -238739351296102810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_28
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 867
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a212a4052d50dc0800000000000000
+      internalID: -3673298678767867284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_29
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 850
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4152a9d731bec89f0800000000000000
+      internalID: -464738192581843692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_30
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 845
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c13000aad829550800000000000000
+      internalID: 6166146601107790958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_31
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 851
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99591bd9a40574700800000000000000
+      internalID: 524476163015415193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_32
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 851
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ef53cf23fe102b0800000000000000
+      internalID: -5619947857722868198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_33
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 831
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b350f7e4f1436e30800000000000000
+      internalID: 4495509373164999601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_34
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 832
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbc554d5207bf830800000000000000
+      internalID: 4105998793056832462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_35
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 839
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601576c10363d24d0800000000000000
+      internalID: -3157808183453986554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_36
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 823
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df04e8b5ac4144e0800000000000000
+      internalID: -1999232484920520744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_37
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 831
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4cd64eb5fd41690800000000000000
+      internalID: -7632229882718731056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_38
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 808
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3ae323efb6f1430800000000000000
+      internalID: 3755839353759114164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 812
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de14d356b9eef9690800000000000000
+      internalID: -7593088095537511955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_40
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 808
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c04c72e096103d20800000000000000
+      internalID: 3256127342119764169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_41
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 793
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87e7aa31fb412480800000000000000
+      internalID: -8925769487028328565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_42
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 785
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93d0ae482b979710800000000000000
+      internalID: 1699997981775811484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door-front-open_43
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 752
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefcc4664fa42cf90800000000000000
+      internalID: -6934898062648356884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      door-front-open_0: -8989906642518247251
+      door-front-open_1: -1928967525617003537
+      door-front-open_10: 4793897790457210894
+      door-front-open_11: -1364390014812294169
+      door-front-open_12: 2862636411385803953
+      door-front-open_13: 1113597836790679133
+      door-front-open_14: 2156493084920865287
+      door-front-open_15: -3585590508389552379
+      door-front-open_16: -7247223086829032141
+      door-front-open_17: -1752289704949608664
+      door-front-open_18: 754822569119059180
+      door-front-open_19: -4581412886846661429
+      door-front-open_2: 8743876271093439290
+      door-front-open_20: -72983562702788259
+      door-front-open_21: 4889755198281173524
+      door-front-open_22: -649260692931688856
+      door-front-open_23: -4451352490747825436
+      door-front-open_24: 2181349485821042531
+      door-front-open_25: 4468882152149477569
+      door-front-open_26: 4400884536315874634
+      door-front-open_27: -238739351296102810
+      door-front-open_28: -3673298678767867284
+      door-front-open_29: -464738192581843692
+      door-front-open_3: 7423061619032291988
+      door-front-open_30: 6166146601107790958
+      door-front-open_31: 524476163015415193
+      door-front-open_32: -5619947857722868198
+      door-front-open_33: 4495509373164999601
+      door-front-open_34: 4105998793056832462
+      door-front-open_35: -3157808183453986554
+      door-front-open_36: -1999232484920520744
+      door-front-open_37: -7632229882718731056
+      door-front-open_38: 3755839353759114164
+      door-front-open_39: -7593088095537511955
+      door-front-open_4: 3154973483877695502
+      door-front-open_40: 3256127342119764169
+      door-front-open_41: -8925769487028328565
+      door-front-open_42: 1699997981775811484
+      door-front-open_43: -6934898062648356884
+      door-front-open_5: -3204501401194922992
+      door-front-open_6: 5101606293235601850
+      door-front-open_7: 2540551092544935996
+      door-front-open_8: 4447893683901395732
+      door-front-open_9: -4042156337057418477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
