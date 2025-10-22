@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHurtScript : MonoBehaviour
 {
+    public GameObject hurtsfx;
     public int health = 3;
     public float iFrameTime = 0.5f;
     public GameObject gameOverUI;
@@ -19,6 +20,7 @@ public class PlayerHurtScript : MonoBehaviour
         if (other.CompareTag("Bat"))
         {
             health--;
+            Instantiate(hurtsfx);
             anim.SetTrigger("PlayerHit");
             for (int i = 0; i < 3; i++)
             {

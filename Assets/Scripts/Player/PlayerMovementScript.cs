@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovementScript : MonoBehaviour
 {
+    public AudioSource footsteps;
     public Rigidbody2D rb;
     public float moveSpeed = 1f;
     InputAction moveAction;
@@ -25,7 +26,15 @@ public class PlayerMovementScript : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 dir = moveAction.ReadValue<Vector2>();
+        if (rb.linearVelocity == Vector2.zero && dir != Vector2.zero)
+        {
+          footsteps.Play();
+        }
         rb.linearVelocity = dir * moveSpeed;
+        if(rb.linearVelocity==Vector2.zero)
+        {
+            footsteps.Stop();
+        }
 
         // if (!dir.Equals(Vector2.zero))
         // {

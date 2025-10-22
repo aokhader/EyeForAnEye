@@ -1,10 +1,9 @@
-using System;
-using UnityEditor.Callbacks;
-using UnityEditor.Profiling;
 using UnityEngine;
 
 public class EnemyHurtScript : MonoBehaviour
 {
+    public GameObject hitFx;
+    public GameObject deathFx;
     public bool dropsEye = true;
     private GameObject player;
     public Rigidbody2D rb;
@@ -33,9 +32,11 @@ public class EnemyHurtScript : MonoBehaviour
                 rb.linearVelocity = (toPlayer.normalized * -5);
             }
             heatlh--;
+            Instantiate(hitFx);
             anim.SetTrigger("Hit");
             if (heatlh <= 0)
             {
+                Instantiate(hitFx);
                 if (dropsEye)
                 {
                     Instantiate(eye, transform.position, Quaternion.identity);

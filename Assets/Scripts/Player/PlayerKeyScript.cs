@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PlayerKeyScript : MonoBehaviour
 {
+    public GameObject keySfx;
     bool firstKey = true;
     private int keys = 0;
     public GameObject ui;
@@ -27,6 +28,7 @@ public class PlayerKeyScript : MonoBehaviour
                 firstKey = false;
             }
             keys++;
+            Instantiate(keySfx);
             UpdateKeyUI();
             Destroy(other.gameObject);
         }

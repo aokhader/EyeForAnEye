@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 577790143334815651, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
       propertyPath: m_Name
-      value: Player Variant
+      value: TutorialPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 1194327523535989640, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
       propertyPath: firstUse
@@ -20,6 +20,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: cff87d096647ef049af6084f7d06da37, type: 2}
+    - target: {fileID: 4992295626035141592, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cff87d096647ef049af6084f7d06da37, type: 2}
+    - target: {fileID: 5316138662000180140, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+      propertyPath: slashOffset
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 5882507939816186739, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
       propertyPath: healthBar
       value: 
@@ -68,6 +76,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7004194209360632394, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 7398038352685383232, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
       propertyPath: col
       value: 
@@ -96,6 +108,26 @@ PrefabInstance:
       propertyPath: hearts.Array.size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7897370531252330076, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+      propertyPath: footsteps
+      value: 
+      objectReference: {fileID: 2792377502890200450}
+    - target: {fileID: 8510611523007204660, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+      propertyPath: m_Volume
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510611523007204660, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+      propertyPath: BypassEffects
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510611523007204660, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+      propertyPath: BypassReverbZones
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510611523007204660, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+      propertyPath: BypassListenerEffects
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6519088389052385954, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
     m_RemovedGameObjects:
@@ -103,6 +135,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+--- !u!82 &2792377502890200450 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8510611523007204660, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
+  m_PrefabInstance: {fileID: 5826321588548583606}
+  m_PrefabAsset: {fileID: 0}
 --- !u!58 &4889037373498236017 stripped
 CircleCollider2D:
   m_CorrespondingSourceObject: {fileID: 1369684772184939719, guid: 2147f2dadc079a54fafe4d4d8de53fe4, type: 3}
