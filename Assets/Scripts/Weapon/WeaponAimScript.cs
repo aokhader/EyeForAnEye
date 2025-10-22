@@ -1,12 +1,10 @@
-using System;
-using Mono.Cecil.Cil;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 
 public class WeaponAimScript : MonoBehaviour
 {
+    public AudioSource swingSound;
     InputAction mouseLookAction;
     InputAction lookAction;
     InputAction atkAction;
@@ -41,6 +39,7 @@ public class WeaponAimScript : MonoBehaviour
         if (attack && Time.time > nextFire)
         {
             anim.Play("SwordSlashAnim");
+            swingSound.Play();
             Vector3 spawnPos = transform.position;
             spawnPos.x += dir.x * slashOffset;
             spawnPos.y += dir.y * slashOffset;

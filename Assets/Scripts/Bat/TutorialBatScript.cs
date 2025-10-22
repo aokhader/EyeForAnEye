@@ -1,10 +1,9 @@
-using System;
-using UnityEditor.Callbacks;
-using UnityEditor.Profiling;
 using UnityEngine;
 
 public class TutorialBatScript : MonoBehaviour
 {
+    public GameObject hitFx;
+
     private GameObject player;
     public Rigidbody2D rb;
     public Animator anim;
@@ -30,6 +29,7 @@ public class TutorialBatScript : MonoBehaviour
         {
             rb.linearVelocity = (toPlayer.normalized * -5);
             heatlh--;
+            Instantiate(hitFx);
             anim.SetTrigger("Hit");
             if (heatlh <= 0)
             {

@@ -205,6 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9d8949c45938341888969181a7dd7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  sfx: {fileID: 2090742076498949780, guid: 1a0e71face0ee724a9650c145e0f8a21, type: 3}
   col: {fileID: 7224226786341583343}
 --- !u!1001 &5904265432915885648
 PrefabInstance:

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerPickupScript : MonoBehaviour
 {
+    public GameObject eyeSfx;
     public bool firstEye = true;
     private int eyes = 0;
     public GameObject ui;
@@ -36,6 +37,7 @@ public class PlayerPickupScript : MonoBehaviour
                 firstEye = false;
             }
             eyes++;
+            Instantiate(eyeSfx);
             UpdateEyeUI();
         }
     }

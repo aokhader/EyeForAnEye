@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
+    public GameObject sfx;
     public BoxCollider2D col;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,5 +22,6 @@ public class DoorScript : MonoBehaviour
     {
         col.enabled = false;
         transform.Find("Obscure").gameObject.SetActive(false);
+        Instantiate(sfx);
     }
 }

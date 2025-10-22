@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerLightRestoreScript : MonoBehaviour
 {
+    public GameObject sfx;
     public Animator lightAnim;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,6 +17,7 @@ public class PlayerLightRestoreScript : MonoBehaviour
         {
             lightAnim.ResetTrigger("Fade");
             lightAnim.SetTrigger("Restore");
+            Instantiate(sfx);
         }
     }
 
