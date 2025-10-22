@@ -30,7 +30,7 @@ public class CaptionProgressionScript : MonoBehaviour
     };
     private Caption[] intro3Captions = new Caption[]
     {
-        new Caption { text = "What is this?", duration = 0f },
+        new Caption { text = "What is this? Can I use this insight?", duration = 0f },
     };
 
     void Start()

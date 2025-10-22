@@ -7,6 +7,7 @@ public class PlayerMovementScript : MonoBehaviour
     public float moveSpeed = 1f;
     InputAction moveAction;
     InputAction lookAction;
+    InputAction mouseLookAction;
     public SpriteRenderer sr;
     public Sprite front;
     public Sprite back;
@@ -17,7 +18,8 @@ public class PlayerMovementScript : MonoBehaviour
     void Awake()
     {
         moveAction = InputSystem.actions.FindAction("Move");
-        lookAction = InputSystem.actions.FindAction("MouseLook");
+        mouseLookAction = InputSystem.actions.FindAction("MouseLook");
+        lookAction = InputSystem.actions.FindAction("Look");
     }
 
     void FixedUpdate()
@@ -37,11 +39,16 @@ public class PlayerMovementScript : MonoBehaviour
         //     }
         // }
 
-        Vector2 mousePos = lookAction.ReadValue<Vector2>();
-        Vector2 screenCenter = new Vector2(Screen.width / 2f, Screen.height / 2f);
-        Vector2 mouseDir = (mousePos - screenCenter).normalized;
 
-        float angle = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
+        Vector2 lookDir = lookAction.ReadValue<Vector2>();
+        if (dir == Vector2.zero)
+        {
+            Vector2 mousePos = mouseLookAction.ReadValue<Vector2>();
+            Vector2 screenCenter = new Vector2(Screen.width / 2f, Screen.height / 2f);
+            dir = (mousePos - screenCenter).normalized;
+        }
+
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         // if (angle > 70 && angle < 160)
         // {
         //     sr.sprite = back;
@@ -67,8 +74,8 @@ public class PlayerMovementScript : MonoBehaviour
         // {
         //     anim.Play("PlayerIdleAnim");
         // }
-        anim.SetFloat("DirX", mouseDir.x);
-        anim.SetFloat("DirY", mouseDir.y);
+        anim.SetFloat("DirX", lookDir.x);
+        anim.SetFloat("DirY", lookDir.y);
         Vector2 vel = rb.linearVelocity;
         anim.SetFloat("MoveX", vel.normalized.x);
         anim.SetFloat("MoveY", vel.normalized.y);

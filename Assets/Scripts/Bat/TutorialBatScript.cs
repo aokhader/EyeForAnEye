@@ -30,7 +30,7 @@ public class TutorialBatScript : MonoBehaviour
         {
             rb.linearVelocity = (toPlayer.normalized * -5);
             heatlh--;
-            anim.SetTrigger("BatHit");
+            anim.SetTrigger("Hit");
             if (heatlh <= 0)
             {
                 Instantiate(eye, transform.position, Quaternion.identity);
