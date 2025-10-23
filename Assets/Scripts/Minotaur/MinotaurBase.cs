@@ -18,16 +18,22 @@ public class Minotaur : MonoBehaviour
 
     public GameObject restSprite;
     public GameObject fightSprite;
+    public GameObject leftSlam;
+    public GameObject rightSlam;
+    public GameObject frontSlam;
+    public GameObject backSlam;
     public AudioClip alertedFx;
     public AudioClip hitFx;
     public AudioClip attackFx;
     public AudioClip deathFx;
     public Rigidbody2D rb;
+
+
     private float health = 50.0f;
     private float attackDamage = 2.0f;
     public float attackCooldown = 1.2f;
     private float lastAttackTime = 0f; // Timestamp of the last attack to manage cooldown
-    public float attackRange = 4.8f;
+    public float attackRange = 1f;
     public float moveSpeed = 5.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -38,6 +44,11 @@ public class Minotaur : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         lastAttackTime = -attackCooldown;
+
+        frontSlam.SetActive(false);
+        backSlam.SetActive(false);
+        rightSlam.SetActive(false);
+        leftSlam.SetActive(false);
         SetFighting(false);
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -81,13 +92,25 @@ public class Minotaur : MonoBehaviour
     {
         Vector2 direction = (player.transform.position - transform.position).normalized;
         float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+
+        float lastKnownDirection = 0f; // 0: down, 1: up, 2: left, 3: right
+        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        {
+            lastKnownDirection = direction.x > 0 ? 3f : 2f;
+        }
+        else
+        {
+            lastKnownDirection = direction.y > 0 ? 1f : 0f;
+        }
+        animator.SetFloat("LastDirection", lastKnownDirection);
+
         fightSprite.SetActive(false);
 
         if (distanceToPlayer <= attackRange && Time.time >= lastAttackTime + attackCooldown)
         {
             attacking = true;
             rb.linearVelocity = Vector2.zero;
-            AttackPlayer();
+            AttackPlayer(lastKnownDirection);
         }
         else
         {
@@ -101,21 +124,67 @@ public class Minotaur : MonoBehaviour
         //Debug.Log("Can Attack: " + (Time.time >= lastAttackTime + attackCooldown));
     }
 
-    public void AttackPlayer()
+    public void AttackPlayer(float lastKnownDirection)
     {
         Debug.Log("Minotaur attacks the player for " + attackDamage + " damage!");
-        StartCoroutine(AttackSequence());
+        DetermineActiveSprite(lastKnownDirection);
+        //fightSprite.SetActive(true);
+        StartCoroutine(AttackSequence(lastKnownDirection));
     }
 
-    private IEnumerator AttackSequence()
+    public void DetermineActiveSprite(float lastKnownDirection)
+    {
+        // 0: down, 1: up, 2: left, 3: right
+        if (lastKnownDirection == 0f)
+        {
+            animator.SetTrigger("AttackDown");
+            frontSlam.SetActive(true);
+
+        }
+        else if (lastKnownDirection == 1f)
+        {
+            animator.SetTrigger("AttackUp");
+            backSlam.SetActive(true);
+        }
+        else if (lastKnownDirection == 2f)
+        {
+            animator.SetTrigger("AttackLeft");
+            leftSlam.SetActive(true);
+        }
+        else if (lastKnownDirection == 3f)
+        {
+            animator.SetTrigger("AttackRight");
+            rightSlam.SetActive(true);
+        }
+    }
+
+    private IEnumerator AttackSequence(float lastKnownDirection)
     {
         Debug.Log("Starting attack sequence.");
-        animator.SetTrigger("Attack");
+        animator.SetBool("isAttacking", true);
         animator.SetBool("IsMoving", false);
 
         // Time for the animation to play
         audioSource.PlayOneShot(attackFx);
         yield return new WaitForSeconds(attackAnimationDuration);
+
+        if (lastKnownDirection == 0f)
+        {
+            frontSlam.SetActive(false);
+        }
+        else if (lastKnownDirection == 1f)
+        {
+            backSlam.SetActive(false);
+        }
+        else if (lastKnownDirection == 2f)
+        {
+            leftSlam.SetActive(false);
+        }
+        else if (lastKnownDirection == 3f)
+        {
+            rightSlam.SetActive(false);
+        }
+
         Debug.Log("Attack sequence finished.");
         lastAttackTime = Time.time;
         attacking = false;
