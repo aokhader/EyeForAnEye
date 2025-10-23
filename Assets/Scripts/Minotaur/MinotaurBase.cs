@@ -13,7 +13,7 @@ public class Minotaur : MonoBehaviour
     public GameObject restSprite;
     public GameObject fightSprite;
     public AudioClip alertedFx;
-    public float health = 10f;
+    public float health = 20f;
     public float attackDamage = 2f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -32,13 +32,20 @@ public class Minotaur : MonoBehaviour
 
             Debug.Log("Minotaur has detected the player and is now fighting!");
             StartCoroutine(StartFightWithDelay());
-            //SetFighting(true);
         }
-        //else if (!playerInRange() && isFighting)
-        //{
-        //    Debug.Log("Minotaur has lost sight of the player and is no longer fighting.");
-        //    SetFighting(false);
-        //}
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Minotaur collided with: " + other.name);
+        if (other.CompareTag("Sword") && isFighting)
+        {
+            health -= 1f;
+            if(health <= 0f)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 
     IEnumerator StartFightWithDelay()
