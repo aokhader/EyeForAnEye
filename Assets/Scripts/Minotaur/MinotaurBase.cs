@@ -12,6 +12,7 @@ public class Minotaur : MonoBehaviour
     private float detectionRange = 7f;
     private bool isTransitioning = false; // To prevent multiple transitions at once
     private float transitionDelay = 0.5f; 
+    private float attackAnimationDuration = 2.3f; 
     private AudioSource audioSource;
     private Animator animator;
 
@@ -19,13 +20,14 @@ public class Minotaur : MonoBehaviour
     public GameObject fightSprite;
     public AudioClip alertedFx;
     public AudioClip hitFx;
+    public AudioClip attackFx;
     public AudioClip deathFx;
     public Rigidbody2D rb;
     private float health = 50.0f;
     private float attackDamage = 2.0f;
     public float attackCooldown = 1.2f;
     private float lastAttackTime = 0f; // Timestamp of the last attack to manage cooldown
-    public float attackRange = 4.2f;
+    public float attackRange = 4.8f;
     public float moveSpeed = 5.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -78,35 +80,43 @@ public class Minotaur : MonoBehaviour
     public void MoveTowardPlayer()
     {
         Vector2 direction = (player.transform.position - transform.position).normalized;
-        rb.linearVelocity = direction * moveSpeed;
-
-        fightSprite.SetActive(false);
-
-        animator.SetBool("IsMoving", true);
-        animator.SetFloat("MoveX", direction.x);
-        animator.SetFloat("MoveY", direction.y);
-
         float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
-        Debug.Log("Distance to player: " + distanceToPlayer);
-        Debug.Log(Time.time + " - Last Attack Time: " + lastAttackTime + " | Cooldown: " + attackCooldown);
-        Debug.Log("Can Attack: " + (Time.time >= lastAttackTime + attackCooldown));
+        fightSprite.SetActive(false);
 
         if (distanceToPlayer <= attackRange && Time.time >= lastAttackTime + attackCooldown)
         {
             attacking = true;
-            animator.SetBool("IsMoving", false);
-            animator.SetBool("IsAttacking", true);
+            rb.linearVelocity = Vector2.zero;
             AttackPlayer();
         }
-
+        else
+        {
+            rb.linearVelocity = direction * moveSpeed;
+            animator.SetBool("IsMoving", true);
+            animator.SetFloat("MoveX", direction.x);
+            animator.SetFloat("MoveY", direction.y);
+        }
+        //Debug.Log("Distance to player: " + distanceToPlayer);
+        //Debug.Log(Time.time + " - Last Attack Time: " + lastAttackTime + " | Cooldown: " + attackCooldown);
+        //Debug.Log("Can Attack: " + (Time.time >= lastAttackTime + attackCooldown));
     }
 
     public void AttackPlayer()
     {
         Debug.Log("Minotaur attacks the player for " + attackDamage + " damage!");
+        StartCoroutine(AttackSequence());
+    }
 
+    private IEnumerator AttackSequence()
+    {
+        Debug.Log("Starting attack sequence.");
+        animator.SetTrigger("Attack");
+        animator.SetBool("IsMoving", false);
 
-
+        // Time for the animation to play
+        audioSource.PlayOneShot(attackFx);
+        yield return new WaitForSeconds(attackAnimationDuration);
+        Debug.Log("Attack sequence finished.");
         lastAttackTime = Time.time;
         attacking = false;
     }
@@ -150,9 +160,9 @@ public class Minotaur : MonoBehaviour
 
     // This is a helpful editor-only function that draws a red circle
     // around the boss in the Scene view to visualize the attack range.
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
-    }
+    //private void OnDrawGizmosSelected()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireSphere(transform.position, attackRange);
+    //}
 }
