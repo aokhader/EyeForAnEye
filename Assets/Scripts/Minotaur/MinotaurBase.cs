@@ -9,7 +9,7 @@ public class Minotaur : MonoBehaviour
     private bool alerted = false;
     private bool attacking = false;
     private GameObject player;
-    private float detectionRange = 7f;
+    private float detectionRange = 10f;
     private bool isTransitioning = false; // To prevent multiple transitions at once
     private float transitionDelay = 0.5f; 
     private float attackAnimationDuration = 2.3f; 
@@ -54,7 +54,7 @@ public class Minotaur : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Minotaur collided with: " + other.name);
-        if (other.CompareTag("Sword") && isFighting)
+        if (other.CompareTag("Sword") || other.name == "Sword_0")
         {
             health -= 1f;
             Debug.Log("Minotaur hit! Current health: " + health);
@@ -66,11 +66,12 @@ public class Minotaur : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+        
     }
 
 
-    // Update is called once per frame
-    void Update()
+    // Update is called once per fixed frame for physics calculations
+    void FixedUpdate()
     {
         if (playerInRange() && currentState == MinotaurState.Resting && !isTransitioning)
         {
@@ -119,9 +120,6 @@ public class Minotaur : MonoBehaviour
             animator.SetFloat("MoveX", direction.x);
             animator.SetFloat("MoveY", direction.y);
         }
-        //Debug.Log("Distance to player: " + distanceToPlayer);
-        //Debug.Log(Time.time + " - Last Attack Time: " + lastAttackTime + " | Cooldown: " + attackCooldown);
-        //Debug.Log("Can Attack: " + (Time.time >= lastAttackTime + attackCooldown));
     }
 
     public void AttackPlayer(float lastKnownDirection)
