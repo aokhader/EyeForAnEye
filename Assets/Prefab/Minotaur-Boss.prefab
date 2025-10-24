@@ -256,4 +256,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Minotaur
   restSprite: {fileID: 0}
   fightSprite: {fileID: 0}
-  health: 10
+  leftSlam: {fileID: 0}
+  rightSlam: {fileID: 0}
+  frontSlam: {fileID: 0}
+  backSlam: {fileID: 0}
+  alertedFx: {fileID: 8300000, guid: b27bae4edcff56d40937cbbfff0a7809, type: 3}
+  hitFx: {fileID: 8300000, guid: 2aead8c53d3cd2149a70d174ba15e099, type: 3}
+  attackFx: {fileID: 8300000, guid: 58d96a4d4878c4e4a855a577ed77647a, type: 3}
+  deathFx: {fileID: 8300000, guid: 135a2808832e4644196f61975826a28f, type: 3}
+  rb: {fileID: 0}
+  attackCooldown: 1.2
+  attackRange: 1
+  moveSpeed: 5

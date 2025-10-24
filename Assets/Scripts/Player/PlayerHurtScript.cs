@@ -37,7 +37,7 @@ public class PlayerHurtScript : MonoBehaviour
             nextHitTime = Time.time + iFrameTime;
             col.enabled = false;
         }
-        else if (other.CompareTag("Minotaur"))
+        else if (other.CompareTag("Minotaur") && other.GetType() == typeof(CircleCollider2D))
         {
             health -= 1;
             Instantiate(hurtsfx);

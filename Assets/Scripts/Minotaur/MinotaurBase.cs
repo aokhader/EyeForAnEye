@@ -139,7 +139,6 @@ public class Minotaur : MonoBehaviour
         {
             animator.SetTrigger("AttackDown");
             frontSlam.SetActive(true);
-
         }
         else if (lastKnownDirection == 1f)
         {
