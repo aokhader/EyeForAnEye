@@ -89,5 +89,8 @@ public class PlayerMovementScript : MonoBehaviour
         anim.SetFloat("MoveX", vel.normalized.x);
         anim.SetFloat("MoveY", vel.normalized.y);
         anim.SetFloat("Speed", vel.magnitude);
+
+        //if (Input.GetKey(KeyCode.W)) Debug.Log("W pressed");
+        //if (Input.GetKey(KeyCode.A)) Debug.Log("A pressed");
     }
 }
