@@ -17,6 +17,7 @@ public class PlayerHurtScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Player collided with: " + other.name);
         if (other.CompareTag("Bat"))
         {
             health--;
@@ -35,6 +36,24 @@ public class PlayerHurtScript : MonoBehaviour
             }
             nextHitTime = Time.time + iFrameTime;
             col.enabled = false;
+        }
+        else if (other.CompareTag("Minotaur"))
+        {
+            health -= 1;
+            Instantiate(hurtsfx);
+            anim.SetTrigger("PlayerHit");
+            for (int i = 0; i < 3; i++)
+            {
+                hearts[i].SetActive(i < health);
+            }
+            if(health <= 0)
+            {
+                gameOverUI.SetActive(true);
+                Instantiate(corpse, transform.position, Quaternion.identity);
+                game.RestartScene(gameOverTime);
+                gameObject.SetActive(false);
+            }
+                
         }
     }
 

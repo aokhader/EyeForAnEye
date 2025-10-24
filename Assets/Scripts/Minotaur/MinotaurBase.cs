@@ -11,8 +11,8 @@ public class Minotaur : MonoBehaviour
     private GameObject player;
     private float detectionRange = 7f;
     private bool isTransitioning = false; // To prevent multiple transitions at once
-    private float transitionDelay = 0.5f;
-    private float attackAnimationDuration = 2.3f;
+    private float transitionDelay = 0.5f; 
+    private float attackAnimationDuration = 2.3f; 
     private AudioSource audioSource;
     private Animator animator;
 
@@ -85,7 +85,7 @@ public class Minotaur : MonoBehaviour
         {
             MoveTowardPlayer();
         }
-
+  
     }
 
     public void MoveTowardPlayer()
@@ -193,9 +193,9 @@ public class Minotaur : MonoBehaviour
     IEnumerator StartFightWithDelay()
     {
         isTransitioning = true;
-        if (audioSource && alertedFx)
+        if(audioSource && alertedFx)
         {
-            if (!alerted)
+            if(!alerted)
             {
                 alerted = true;
                 audioSource.PlayOneShot(alertedFx);
